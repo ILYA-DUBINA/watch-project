@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import Watch from '../../components/Watch'
+import Watch from '../components/Watch'
 import { useEffect, useState } from 'react'
-import WatchClass from '../../components/WatchClass';
+import WatchClass from '../components/WatchClass';
 
 interface TimeObj {
   hour: string;
